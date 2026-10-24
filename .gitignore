@@ -1,0 +1,12 @@
+@"
+.env
+.env.*
+!.env.example
+uploads/*
+!uploads/.gitkeep
+*.sql
+*.sql.zip
+.DS_Store
+Thumbs.db
+.vscode/
+"@ | Set-Content -Encoding utf8 .gitignore
